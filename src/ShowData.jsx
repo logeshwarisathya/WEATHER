@@ -15,55 +15,6 @@ const ShowData = ({data}) => {
     // const id = data?.weather[0].id
     const id = data?.weather?.[0]?.id ?? 0;
 
-
-    // let background = {
-    //     type: "image",
-    //     src: DefaultImg
-    // };
-
-    // if(id>=200 && id < 300){
-    //     background = {
-    //     type:"video/mp4",
-    //     src: Thunder
-    //     }
-    // }
-    // else if(id>=300 && id < 400){
-    //     background = {
-    //     type:"video/mp4",
-    //     src: Drizzle
-    //     }
-    // }
-    // else if(id>=500 && id < 600){
-    //     background = {
-    //     type:"video/mp4",
-    //     src: Rainy
-    //     }
-    // }
-    // else if(id>=600 && id < 700){
-    //     background = {
-    //     type:"video/mp4",
-    //     src: Snow
-    //     }
-    // }
-    // else if(id>=700 && id < 800){
-    //     background = {
-    //     type:"video/mp4",
-    //     src: Fog
-    //     }
-    // }
-    // else if(id===800){
-    //     background = {
-    //     type:"video/mp4",
-    //     src: ClearSky
-    //     }
-    // }
-    // else if(id>800 && id < 805){
-    //     background = {
-    //     type:"video/mp4",
-    //     src: Cloudy
-    //     }
-    // }
-    
 let background = {
     type: "image",
     src: DefaultImg
