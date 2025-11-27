@@ -79,3 +79,148 @@ body {
 .weatherContent>p{
     font-size: 20px;
 }
+/* ------------------------------
+   📱 Extra Small Phones (0–480px)
+-------------------------------*/
+@media (max-width: 480px) {
+
+    .Input-content {
+        width: 90%;
+        padding: 12px;
+    }
+
+    .input-box input {
+        font-size: 13px;
+        padding: 8px;
+    }
+
+    .input-box button {
+        font-size: 18px;
+    }
+
+    .temp {
+        text-align: left;
+        gap: 12px;
+    }
+
+    .weatherContent {
+        margin-top: 300px;
+    }
+
+    .weatherContent h3 {
+        font-size: 22px;
+    }
+
+    .weatherContent p {
+        font-size: 16px;
+    }
+}
+
+
+/* ------------------------------
+   📱 Small Phones (480–600px)
+-------------------------------*/
+@media (min-width: 480px) and (max-width: 600px) {
+
+    .Input-content {
+        width: 85%;
+    }
+
+    .input-box input {
+        font-size: 14px;
+    }
+
+    .weatherContent {
+        margin-top: 300px;
+    }
+
+    .temp {
+        text-align: left;
+        
+    }
+    .temp>.today{
+    padding-right: 10px;
+    }
+    .temp>.yesterday{
+        padding-left: 20px;
+    }
+    
+}
+
+
+/* ------------------------------
+   📖 Tablets (600–768px)
+-------------------------------*/
+@media (min-width: 600px) and (max-width: 768px) {
+
+    .Input-content {
+        width: 70%;
+        padding: 18px;
+    }
+
+    .weatherContent {
+        margin-top: 280px;
+    }
+
+    .weatherContent h3 {
+        font-size: 26px;
+    }
+
+    .weatherContent p {
+        font-size: 18px;
+    }
+}
+
+
+/* ------------------------------
+   💻 Large Tablets / Small Laptops (768–992px)
+-------------------------------*/
+@media (min-width: 768px) and (max-width: 992px) {
+
+    .Input-content {
+        width: 60%;
+        padding: 20px;
+    }
+
+    .weatherContent {
+        margin-top: 300px;
+    }
+
+    .temp > div h2 {
+        font-size: 20px;
+    }
+}
+
+
+/* ------------------------------
+   💻 Laptops (992–1200px)
+-------------------------------*/
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .Input-content {
+        width: 430px;
+    }
+
+    .weatherContent {
+        margin-top: 320px;
+    }
+
+    .weatherContent h3 {
+        font-size: 28px;
+    }
+}
+
+
+/* ------------------------------
+   🖥️ Desktops (1200px and above)
+-------------------------------*/
+@media (min-width: 1200px) {
+
+    .Input-content {
+        width: 450px;
+    }
+
+    .weatherContent {
+        margin-top: 330px;
+    }
+}

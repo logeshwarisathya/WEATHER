@@ -80,6 +80,7 @@ const Weather = () => {
           <p>Weather: {tomorrow.weather[0].main}</p>
         </div>
       )}
+      
     </div>
   );
 };
