@@ -80,6 +80,43 @@ body {
     font-size: 20px;
 }
 /* ------------------------------
+   📱 Extra Small Phones (400px)
+-------------------------------*/
+@media (max-width: 400px) {
+
+    .Input-content {
+        width: 90%;
+        padding: 12px;
+    }
+
+    .input-box input {
+        font-size: 13px;
+        padding: 8px;
+    }
+
+    .input-box button {
+        font-size: 18px;
+    }
+
+    .temp {
+        text-align: left;
+        gap: 12px;
+    }
+
+    .weatherContent {
+        margin-top: 250px;
+    }
+
+    .weatherContent h3 {
+        font-size: 22px;
+    }
+
+    .weatherContent p {
+        font-size: 16px;
+    }
+}
+
+/* ------------------------------
    📱 Extra Small Phones (0–480px)
 -------------------------------*/
 @media (max-width: 480px) {
